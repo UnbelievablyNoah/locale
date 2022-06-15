@@ -21,7 +21,7 @@ languages.lt = require('./lt-LT/website.json');
 languages.nl = require('./nl-NL/website.json');
 languages.no = require('./no-NO/website.json');
 languages.pl = require('./pl-PL/website.json');
-languages["pt_BR"] = require('./pt-BR/website.json');
+languages["pt-BR"] = require('./pt-BR/website.json');
 languages.pt = require('./pt-PT/website.json');
 languages.ro = require('./ro-RO/website.json');
 languages.ru = require('./ru-RU/website.json');
@@ -33,9 +33,48 @@ languages.tr = require('./tr-TR/website.json');
 languages.uk = require('./uk-UA/website.json');
 languages.vi = require('./vi-VN/website.json');
 languages.zh = require('./zh-CN/website.json');
-languages["zh_TW"] = require('./zh-TW/website.json');
+languages["zh-TW"] = require('./zh-TW/website.json');
 
 module.exports = languages;
+module.exports.webLangs = {
+  ar: { name: "العربية", flag: "sa" },
+  bg: { name: "български", flag: "bg" },
+  cs: { name: "čeština", flag: "cz" },
+  en: { name: "English", flag: "us" },
+  tr: { name: "Türkçe", flag: "tr" },
+  zh: { name: "中文", flag: "cn" },
+  "zh-TW": { name: "繁體中文", flag: "tw" },
+  ru: { name: "Pусский", flag: "ru" },
+  uk: { name: "Український", flag: "ua" },
+  fr: { name: "Français", flag: "fr" },
+  de: { name: "Deutsch", flag: "de" },
+  el: { name: "Ελληνικά", flag: "gr" },
+  hi: { name: "हिन्दी", flag: "in" },
+  pl: { name: "Polski", flag: "pl" },
+  pt: { name: "Português", flag: "pt" },
+  nl: { name: "Nederlands", flag: "nl" },
+  it: { name: "Italiana", flag: "it" },
+  es: { name: "Español", flag: "es" },
+  ro: { name: "Română", flag: "ro" },
+  sk: { name: "Slovák", flag: "sk" },
+  ja: { name: "日本語", flag: "jp" },
+  hu: { name: "Magyar", flag: "hu" },
+  ko: { name: "한국어", flag: "kr" },
+  lt: { name: "Italian", flag: "lt" },
+  no: { name: "Norsk", flag: "no" },
+  pl: { name: "Polski", flag: "pl" },
+  "pt-BR": { name: "Português do Brasil", flag: "br" },
+  sr: { name: "Српска", flag: "sr" },
+  sv: { name: "Svenska", flag: "sv" },
+  th: { name: "Thai", flag: "th" },
+  vi: { name: "Tiếng Việt", flag: "vn" },
+  ckb: { name: "سۆرانی", flag: "kur" },
+  da: { name: "Dansk", flag: "dk" },
+  fa: { name: "فارسی", flag: "ir" },
+  fi: { name: "Suo̯mi", flag: "fi" },
+  hr: { name: "Hrvatski", flag: "hr" }
+};
+
 
 
 const botLanguages = {};
